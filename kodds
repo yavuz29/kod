@@ -1,0 +1,1381 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head><meta charset="utf-8" /><title>
+	SPOR İSTANBUL ONLINE
+</title><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /><meta name="description" /><meta name="author" /><link rel="shortcut icon" href="/embeddedfiles/favicon.ico" type="image/x-icon" /><link href="assets/css/emigrar/icon/icofont.css" rel="stylesheet" /><link rel="stylesheet" href="/assets/css/Emigrar/css/animate.css" /><link rel="shortcut icon" href="/assets/media/logos/favicon.ico" /><link href="assets/css/emigrar/css/owl.carousel.min.css" rel="stylesheet" /><link href="assets/css/emigrar/css/owl.theme.default.min.css" rel="stylesheet" /><link href="assets/css/Emigrar/css/app.css" rel="stylesheet" /><link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" /><link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <script src="assets/css/Emigrar/js/plugins.js"></script>
+    <!-- app js -->
+    <script src="assets/css/Emigrar/js/app.js"></script>
+    <script src="assets/css/emigrar/js/owl.carousel.min.js"></script>
+    <!-- ==================End Css Link===================== -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+    <style>
+        .lblGosterim {
+            font-size: 12px;
+            padding: 0px 3px;
+        }
+
+        .p-l-0 {
+            padding-left: 0px;
+        }
+
+        .p-r-0 {
+            padding-left: 0px;
+        }
+    </style>
+    <style>
+        .radiobutonsinif input[type="radio"] {
+            /* stil tanımları */
+            margin-right: 8px;
+            margin-bottom: 5px;
+            border-radius: 50%;
+            --bs-form-check-bg: transparent;
+            flex-shrink: 0;
+            width: 1.75rem;
+            height: 1.75rem;
+            margin-top: -0.125rem;
+            vertical-align: top;
+            appearance: none;
+            background-color: var(--bs-form-check-bg);
+            background-image: var(--bs-form-check-bg-image);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            border: 1px solid var(--bs-gray-300);
+        }
+
+            .radiobutonsinif input[type="radio"]:checked {
+                --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23ffffff'/%3e%3c/svg%3e");
+            }
+
+            .radiobutonsinif input[type="radio"]:checked {
+                background-color: #009ef7;
+                border-color: #009ef7;
+            }
+
+        .well {
+            border: 0;
+            padding: 20px;
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        .well {
+            min-height: 20px;
+            padding: 19px;
+            margin-bottom: 20px;
+            background-color: #f1f4f7;
+            border: 1px solid #e3e3e3;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+        }
+
+        .btn-sm {
+            padding: 7px;
+        }
+
+        .btn-danger {
+            background-color: #ed6b75;
+        }
+
+        .panel-info > .panel-heading {
+            color: #327ad5;
+            background-color: #e0ebf9;
+            border-color: #e0ebf9;
+        }
+    </style>
+
+    <style>
+        input[type="checkbox"] {
+            /*margin-left: 10px; 
+             margin-right: 1px;*/
+            width: 22px;
+            height: 22px;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: sub;
+        }
+
+        .input-group-addon {
+            min-width: 150px;
+            text-align: right;
+        }
+
+        .input-group-btn {
+            min-width: 250px;
+        }
+
+        .auto-style1 {
+            height: 19px;
+        }
+
+        .cboxStyle {
+            width: 20px;
+            height: 20px;
+            margin: 0px;
+            padding: 0px;
+            vertical-align: sub;
+        }
+
+            .cboxStyle label {
+                font-size: 16px;
+                font-weight: 700;
+                margin: 0px;
+                padding: 0px;
+                display: inline;
+            }
+
+        .panel {
+            margin-bottom: 10px !important;
+        }
+
+        .wellPlus {
+            padding: 2px;
+            margin-bottom: 2px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+            .wellPlus label {
+                margin: 0px !important;
+            }
+
+            .wellPlus .labelUfak {
+                font-size: 10px;
+            }
+
+        .fgPlus {
+            margin-bottom: 2px;
+        }
+
+        .lblStyle {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .btn-sm, .btn-group-sm > .btn {
+            padding: 0px 4px 0px 4px;
+        }
+
+        .label-sepet {
+            padding: 3px;
+            border-radius: 3px;
+            margin-right: 3px;
+            background-color: #8bc34a;
+        }
+
+        .label-danger {
+            padding: 3px;
+            background-color: #ed6b75;
+            border-radius: 3px;
+            margin-right: 3px;
+        }
+
+        #rblKiralikTenisSatisTuru td {
+            display: flex;
+        }
+    </style>
+
+    <script lang="javascript" type="text/javascript">
+        function DisableButon() {
+            document.getElementById("rptList").style.display = "none";
+            document.getElementById("lbtnSepeteEkle").style.display = "none";
+            document.getElementById("lblSepet").style.display = "Block";
+
+            return true;
+        }
+
+    </script>
+    <link href="/assets/css/seans.css" rel="stylesheet" />
+
+
+
+    
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://ddei3-0-ctp.trendmicro.com:443/wis/clicktime/v1/query?url=https%3a%2f%2fwww.googletagmanager.com%2fgtm.js%3fid%3d%26%2339%3b%2bi%2bdl%3bf.parentNode.insertBefore%28j%2cf%29&umid=C2C206AC-AFE3-4005-8D9D-39BE9FE34CE6&auth=eda87a191c412c6638deb121eb8201d215716dc8-d5adc2bb20323601b7d7c3536493197da873c55f;
+        })(window, document, 'script', 'dataLayer', 'GTM-TR7LPPD');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169383798-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169383798-1');
+    </script>
+
+    <link href="/mhz/css/uyari.css" rel="stylesheet" />
+    <script src="/mhz/js/uyari.js"></script>
+
+    
+</head>
+<body class="page-container-bg-solid">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TR7LPPD"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <form method="post" action="./satiskiralik" id="form11">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form11'];
+if (!theForm) {
+    theForm = document.form11;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDDbK-58X9M2xsT833SenIQ_FPHt2VpsgH4VC4cmKLyKzPHsMsjj7UZL5omlc8AMlQ2&amp;t=638472333013465412" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yNqjfislwFsnjfA_IYP1W2k9cZOn68Ywdvcv3LobUIhFdAcF1uvr-5v414970qfX2gqUOJRsuhcQ1iw8nHKatkk2v2OlKvyHmnuXQrUoB-vDIofCCJkmxp72v833kMWS-odSjzrCuTIJJUKu3PnEZcg1&amp;t=d41bf5a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadDubJW4M9yGtX7E8SdCwonNVqV03okAGl_7PdeJQOGhtgnllLWyOq8zHVBVOgYq5fE5_dFrmfC7H9QKONlh4o2rKfX2-oyrjEAeqtKdDLgskx39QoIzlvdcjqzRcGnfalvx-VVwRfr3GwUCwodiCxh81&amp;t=d41bf5a" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BA851843" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+        <!-- BEGIN HEADER -->
+        
+
+        
+        
+
+        
+        <!-- /.rt-preloder -->
+        
+        <header class="rt-site-header  rt-fixed-top white-menu">
+            <div class="main-header rt-sticky">
+                <nav class="navbar mt-1 mb-4">
+                    <div class="container">
+
+                        
+    <a href="/anasayfa.aspx" class="brand-logo">
+        <img src="/embeddedfiles/ust-logo-beyaz.png" alt="" style="width: 207px;" />
+    </a>
+
+
+                        <a href="/anasayfa.aspx" class="sticky-logo">
+                            <img src="/embeddedfiles/images/ustlogoerkek.png" style="width: 135px;" alt="" />
+                        </a>
+                        <style>
+                            .ml-auto, .mx-auto {
+                                margin-left: auto !important
+                            }
+                        </style>
+                        <div class="ml-auto d-flex align-items-center">
+                            <script>
+                                $(document).ready(function () {
+                                    $(".menu-item-has-children > a").on("click", function () {
+                                        var element = $(this).parent("li");
+
+                                        if (element.hasClass("open")) {
+                                            element.removeClass("open");
+                                            element.find("li").removeClass("open");
+                                            element.find("ul").slideUp(500, "linear");
+                                        } else {
+                                            element.addClass("open");
+                                            element.children("ul").slideDown();
+                                            element.siblings("li").children("ul").slideUp();
+                                            element.siblings("li").removeClass("open");
+                                            element.siblings("li").find("li").removeClass("open");
+                                            element.siblings("li").find("ul").slideUp();
+                                        }
+                                    });
+                                });
+
+                                $(document).ready(function () {
+                                    $(".menu-item-has-children open active").click(function () {
+                                        $(this).children(".sub-menu").slideToggle();
+                                    });
+                                });// menu menu active link</script>
+
+                            <div class="main-menu">
+                                <ul>
+									<li id="liseanslarim" class="menu-item">
+                                        <a href="uyespor.aspx">Seanslarım</a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a>Tesisler</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/tesislerimiz/">Tesislerimiz Hakkında</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/tesislerimiz/size-en-yakin-tesis/">Size En Yakın Tesis</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/okul-spor-salonlari/">Okul Spor Salonları</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/grup-derslerimiz/">Grup Derslerimiz</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/paket-uyelikleri/">Paket Üyelikleri</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/tesislerimiz/uyelik-bilgileri/">Üyelik Bilgileri</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/tesislerimiz/tesislerimizde-hijyen/">Tesislerimizde Hijyen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="menu-item-has-children">
+                                        <a>Hizmetler</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/engelli-bireylere-ozel-hizmetlerimiz/">Engelli Bireylere Özel Hizmetlerimiz</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/hizmetlerimiz/acik-hava-egzersizleri/">Açık Hava Egzersizleri</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/hizmetlerimiz/evde-egzersiz/">Evde Egzersiz</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/spor-okullari/">İBB Spor Okulları</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/ibb-spor-okullari-online-satranc-kursu/">Online Satranç Eğitimi</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://spor.istanbul/ozel-yetenek-hazirlik-kurslari/">Özel Yetenek Hazırlık Kursları</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://yurube.istanbul">Yürü Be İstanbul Uygulaması</a>
+                                            </li>
+											<li class="menu-item">
+                                                <a href="https://maraton.istanbul">İstanbul Maratonu</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://istanbulyarimaratonu.com">İstanbul Yarı Maratonu</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="https://istanbulukosuyorum.istanbul">İstanbul’u Koşuyorum</a>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="sss.aspx">SSS</a>
+                                    </li>
+                                    <li id="liSepet">
+                                        <a href="uyesepet.aspx" data-bs-toggle="tooltip" data-bs-original-title="Sepet">
+                                            <i class="fas fa-shopping-basket" style="font-size: 20px;"></i>
+                                            
+                                        </a>
+                                    </li>
+                                    
+
+                                    <li id="liUye" class="menu-item-has-children" style="">
+                                        <a class="rt-btn rt-gradient2 text-uppercase rt-Bshadow-1" style="padding: 15px 24px; border-radius: 5px; margin-bottom: -20px; color: white; font-weight: 600; line-height: 24px; -webkit-box-shadow: -3.244px 16.688px 20px 0 rgba(0, 0, 0, .25); box-shadow: -3.244px 16.688px 20px 0 rgba(0, 0, 0, .25); font-family: 'Spor-Istanbul', sans-serif; font-size: 16px; font-weight: 600; line-height: 24px; position: relative; z-index: 2; display: inline-block; overflow: hidden; -webkit-transition: all .24s cubic-bezier(.55, .055, .675, .19); transition: all .24s cubic-bezier(.55, .055, .675, .19); white-space: nowrap; border-width: 0; border-radius: 4; cursor: pointer;">
+                                            <i class="far fa-user-circle" style="color: WHITE;"></i>
+                                            &nbsp;<span id="lblAdSoyad">RAMAZAN DÜZGÜN</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="uyeprofil.aspx">Hesabım</a>
+                                            </li>
+                                            <li><a href="uyespor.aspx">Seanslarım</a></li>
+											<li><a href="satisuyelikpaketleri.aspx">Üyelik Al</a></li>
+                                            <li><a href="satiskiralik.aspx">Rezervasyon Yap</a></li>
+                                            <li id="liCikisYap" class="menu-item">
+                                                <a id="lbtnCikisYap" href="javascript:__doPostBack(&#39;ctl00$lbtnCikisYap&#39;,&#39;&#39;)">Çıkış Yap</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="mobile-menu">
+                                    <div class="menu-click">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end main menu -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- /.bootom-header -->
+
+        </header>
+        <!-- END HEADER -->
+
+        <!-- END CONTAINER -->
+
+        <!-- BEGIN FOOTER -->
+        
+    
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$pageContent$ScriptManager1', 'form11', ['tctl00$pageContent$UpdatePanel1','pageContent_UpdatePanel1'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <script lang="javascript" type="text/javascript">
+
+        $(document).ready(function () {
+            $("#ddlBransFiltre").select2();
+            $("#ddlTesisFiltre").select2();
+            $("#ddlSalonFiltre").select2();
+        });
+
+        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+
+        function EndRequestHandler(sender, args) {
+            // Select2 özelliğini yeniden uygula
+            $("#ddlBransFiltre").select2();
+            $("#ddlTesisFiltre").select2();
+            $("#ddlSalonFiltre").select2();
+        }
+    </script>
+
+    <div id="pageContent_UpdatePanel1">
+	
+
+            
+            <div class="rt-breadcump rt-breadcump-height">
+                <div class="rt-page-bg rtbgprefix-cover" style="background-image: url(/assets/images/backgrounds/bredcump.png)">
+                </div>
+                <!-- /.rt-page-bg -->
+                <div class="container">
+                    <div class="row rt-breadcump-height">
+                        <div class="col-12">
+                            <div class="breadcrumbs-content">
+                                <a class="wow fade-in-bottom animated" style="z-index: 1; font-size: 60px; color: white; top: -20px;">Kiralama Hizmetleri</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="pageContent_divSayfaBildirim" class="container-fluid">
+            </div>
+
+            <script type="text/javascript">
+                setTimeout(function () {
+                    $('#divSayfaBildirim').slideUp(1000);
+                    $('#divSayfaBildirim').html = "";
+                }, 20000); // <-- time in milliseconds
+            </script>
+
+
+            <div id="kt_app_content_container" class="app-container container-xxl mt-3">
+                <div id="pageContent_dvSecim" class="row">
+                    <div class="card mb-xxl-8 mt-3 fade-in-bottom">
+                        <div class="card-body pt-9 pb-0">
+                            <div class="form-horizontal">
+                                <div class="row mb-5">
+                                    <div class="col-sm-4 mb-3">
+                                        <span class="control-label">Branş Adı: <span class="text-danger">*</span></span>
+                                        <select name="ctl00$pageContent$ddlBransFiltre" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$pageContent$ddlBransFiltre\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlBransFiltre" class="form-select" data-control="select2" style="width:100%;">
+		<option value="">-- Se&#231;iniz --</option>
+		<option selected="selected" value="5bdbe5f0-a06e-4243-b65d-231b3c2247ed">FUTBOL</option>
+		<option value="b735aa4b-5923-4789-a04e-bf3e0b0a467c">KİRALAMA (BASKETBOL - VOLEYBOL)</option>
+		<option value="52f5e05c-9bf5-485f-8033-f914bc9e6097">MASA TENİSİ</option>
+		<option value="82d09121-bb1a-45bc-8656-dd09fa890c9c">PLAJ FUTBOLU</option>
+		<option value="999c119c-2fd2-40ce-b0ef-0344c26f4c7f">PLAJ VOLEYBOLU</option>
+		<option value="46f3a438-9535-4fea-b6a8-c8533041d7f9">STAD KİRALAMA</option>
+		<option value="59b7bd71-1aab-4751-8248-7af4a7790f8c">TENİS</option>
+		<option value="43765821-070d-4b2c-80d3-0193729d165e">TENİS &#199;ALIŞMA DUVARI</option>
+
+	</select>
+                                    </div>
+
+                                    <div class="col-sm-4 mb-3">
+                                        <span class="control-label">Tesis Adı: <span class="text-danger">*</span></span>
+                                        <select name="ctl00$pageContent$ddlTesisFiltre" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$pageContent$ddlTesisFiltre\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlTesisFiltre" class="form-select" data-control="select2" style="width:100%;">
+		<option value="">-- Se&#231;iniz --</option>
+		<option value="bdef460a-c8b1-49de-9c5e-666d622b9458">BOSTANCI SAHİL SPOR TESİSİ</option>
+		<option value="7d37f660-0767-4d1b-a4bc-fbdeef19e310">CEMAL KAMACI SPOR KOMPLEKSİ</option>
+		<option value="4834f181-b340-46ee-9874-20d49a8777f1">EDİRNEKAPI SPOR TESİSİ</option>
+		<option value="0848e94d-b6ec-4c02-932e-1adc9348859d">FLORYA SPOR TESİSİ</option>
+		<option value="f53f01ba-cd05-491f-9261-0c17f1340f0e">HAKKI BAŞAR SPOR KOMPLEKSİ</option>
+		<option selected="selected" value="ace4566a-984c-4d84-8bd2-e89a28bad1d3">HALDUN ALAGAŞ SPOR KOMPLEKSİ</option>
+		<option value="81921d47-3220-4308-9809-f4e3e3891873">HALİ&#199; SPOR PARKI</option>
+		<option value="661d32c4-d79d-41cb-9567-5bc224525752">HEYBELİ ADA</option>
+		<option value="2106afd0-018f-436e-8aaa-db7f25230a6a">HİDAYET T&#220;RKOĞLU SPOR TESİSİ</option>
+		<option value="61fb82a5-54f0-4ebd-a24a-1747ec6b7086">KAYNARCA SPOR TESİSİ</option>
+		<option value="6989b491-bb85-414a-b470-293b190ebb44">MALTEPE SAHİL SPOR TESİSİ</option>
+		<option value="c2c33709-aa47-4246-8da3-214deda894ef">METİN OKTAY SPOR TESİSİ</option>
+		<option value="3bda9473-6f1a-445e-834d-0383e9d7805a">PENDİK &#199;AMLIK SPOR TESİSİ</option>
+		<option value="12ae71e2-ee3e-4073-a439-da3517e74a50">PENDİK KURTK&#214;Y SPOR KOMPLEKSİ</option>
+		<option value="c3f62e8b-c882-4f8d-9934-a59ed180218a">PENDİK SAHİL SPOR TESİSİ</option>
+		<option value="a0921d79-d519-4f10-8663-11be1f9dfcf3">SİLİVRİ M&#220;JDAT G&#220;RSU SPOR TESİSİ</option>
+		<option value="05efe521-f4bf-4523-9632-77f1c9482791">SULTANBEYLİ 100. YIL SPOR KOMPLEKSİ</option>
+		<option value="04087b93-3d76-47e7-b40d-7a03a67d2520">SULTANBEYLİ G&#214;LET SPOR TESİSİ</option>
+		<option value="45e51f57-73ad-4dc3-9e26-12f9181c4df1">SULTANGAZİ GAZİ SPOR TESİSİ</option>
+		<option value="12d56bc4-6e84-44ac-97a3-106d78609f83">ŞİLE SPOR KOMPLEKSİ</option>
+		<option value="27c1dfdb-866d-40e1-aec4-e079ddf715b7">TEVFİK AYDENİZ SPOR TESİSİ</option>
+		<option value="4efa01a8-dea2-4545-9996-9515a66538d2">TUZLA KAFKALE SPOR KOMPLEKSİ</option>
+		<option value="59aed6f3-a9ab-4b26-b461-1bf1d3935fbb">TUZLA SAHİL SPOR TESİSİ</option>
+
+	</select>
+                                    </div>
+
+                                    <div class="col-sm-4 mb-3">
+                                        <span class="control-label">Salon Adı: </span>
+                                        <select name="ctl00$pageContent$ddlSalonFiltre" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$pageContent$ddlSalonFiltre\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlSalonFiltre" class="form-select" data-control="select2" style="width:100%;">
+		<option value="">-- Se&#231;iniz --</option>
+		<option selected="selected" value="cc464020-93e5-47a6-86a7-9cebf14500b0">HALI SAHA 1</option>
+
+	</select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pageContent_accordionDiv" class="mb-xxl-8">
+                    <style>
+                        .card .card-header {
+                            justify-content: space-between;
+                            /* align-items: stretch; */
+                            flex-wrap: wrap;
+                            min-height: 20px;
+                            padding: 0 2.25rem;
+                            color: var(--bs-card-cap-color);
+                            background-color: var(--bs-card-cap-bg);
+                            border-bottom: var(--bs-border-width) solid var(--bs-card-border-color);
+                        }
+                    </style>
+
+                    <div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample-0">
+                        <div class="card">
+                            <div class="card-header" id="headingOne-0">
+                                <div class="card-title" data-toggle="collapse" data-target="#collapseOne-0" aria-expanded="true" style="flex: auto;">
+                                    <i class="flaticon-pie-chart-1"></i>Uyarılar
+                                </div>
+                            </div>
+                            <div id="collapseOne-0" class="collapse show" data-parent="#accordionExample-0" style="">
+                                <div class="card-body">
+                                    
+                                            <div class="accordion accordion-solid accordion-toggle-plus mb-3" id="accordionExample-1">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne-1">
+                                                        <div class="card-title" data-toggle="collapse" data-target="#collapseOne-1" aria-expanded="true" style="flex: auto;">
+                                                            <i class="flaticon-pie-chart-1"></i>Par-Q
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseOne-1" class="collapse show" data-parent="#accordionExample-1" style="">
+                                                        <div class="card-body">
+                                                            <p>
+                                                                Değerli üyemiz, Seanslarınızı kullanmaya başlamadan önce, tesisimizi ilk ziyaretinizde, Üyelik Hizmetleri Birimimize uğrayarak Fiziksel Aktivite Uygunluk Formu’nu (PAR-Q) doldurmanız ve ıslak imzalı olarak görevlilere teslim etmeniz önemlidir.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="accordion accordion-solid accordion-toggle-plus mb-3" id="accordionExample-2">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne-2">
+                                                        <div class="card-title" data-toggle="collapse" data-target="#collapseOne-2" aria-expanded="true" style="flex: auto;">
+                                                            <i class="flaticon-pie-chart-1"></i>Muvafakatname
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseOne-2" class="collapse show" data-parent="#accordionExample-2" style="">
+                                                        <div class="card-body">
+                                                            <p>
+                                                                18 yaşın altındaki kullanıcıların seans rezervasyonu yapabilmeleri için velisinden muvafakatname getirmesi gerekir.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="accordion accordion-solid accordion-toggle-plus mb-3" id="accordionExample-3">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne-3">
+                                                        <div class="card-title" data-toggle="collapse" data-target="#collapseOne-3" aria-expanded="true" style="flex: auto;">
+                                                            <i class="flaticon-pie-chart-1"></i>Kiralık Satış Kısıtlaması
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseOne-3" class="collapse show" data-parent="#accordionExample-3" style="">
+                                                        <div class="card-body">
+                                                            <p>
+                                                                Kiralık satışlarda, bir üye aynı gün içerisinde aynı branştan tüm Spor İstanbul Tesislerinden 1 adet seans kiralaması yapabilir. Bir branştan seans kiralaması yapıldığında, aynı branştan 2. seans aynı gün için sepete eklenemez. Aynı üye, farklı bir branştan kiralama yapmak isterse, yine günde 1 adet olmak kaydıyla kiralama yapabilir.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="accordion accordion-solid accordion-toggle-plus mb-3" id="accordionExample-4">
+                                                <div class="card">
+                                                    <div class="card-header" id="headingOne-4">
+                                                        <div class="card-title" data-toggle="collapse" data-target="#collapseOne-4" aria-expanded="true" style="flex: auto;">
+                                                            <i class="flaticon-pie-chart-1"></i>Masa Tenisi Satış Duyurus
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseOne-4" class="collapse show" data-parent="#accordionExample-4" style="">
+                                                        <div class="card-body">
+                                                            <p>
+                                                                "Kiralanan masa tenisi satışlarında Raket kiralama bedeli ücretlere dahil değildir.
+Kiralama yapılan tesiste üyelik hizmetleri bölümünden 1 (çift) raketi 6 TL karşılığında kiralayabilirsiniz."
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pageContent_dvUyeBelgeBilgileriCard" class="row fade-in-bottom">
+                    <div class="card mb-xxl-8 mt-3 pt-3 pb-0">
+                        <div class="card-body">
+                            <div id="pageContent_dvUyeBelgeBilgileri"><div class='panel panel-success-full col-sm-12' style=''><b>RAMAZAN DÜZGÜN - Tanımlı Belgeler </b><br/></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pageContent_dvList" class="row">
+                    
+                    <div class="card mb-xxl-8 mt-3 fade-in-bottom">
+                        <div class="card-header pt-7">
+                            <h4 class="panel-title">Seans Fiyat Listesi</h4>
+                        </div>
+                        <div class="card-body pt-1 pb-0">
+                            <table class="table table-row-dashed align-middle gs-0 gy-4 my-0 fade-in-bottom">
+                                <tbody>
+                                    
+                                            <tr>
+                                                <td class="ps-0">
+                                                    <div class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6 text-start pe-0">(Tüm Gün) 1 Seans </div>
+                                                </td>
+                                                <td class="text-end pe-0">
+                                                    <span class="text-gray-800 fw-bold d-block fs-6">400,00 TL</span>
+                                                </td>
+                                            </tr>
+                                        
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card mb-xxl-8 mt-3 fade-in-bottom">
+                        <div class="card-header pt-7">
+                            <h4 class="panel-title">Seans Listesi</h4>
+                            <p>
+                                Kiralık Seans İfade Örneği: <span class='label label-sepet'>Sepet  </span><span class='label label-danger'>Rezervasyon  </span>
+                            </p>
+                        </div>
+                        <div class="card-body pt-9 pb-0" style="justify-content: center;">
+                            <div id="pageContent_Div1" class="row mb-5">
+                                
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Pazartesi
+                                                        <br />
+                                                        29.04.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_0" class="panel-body" style="padding: 0px;">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Salı
+                                                        <br />
+                                                        30.04.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_1" class="panel-body" style="padding: 0px;">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Çarşamba
+                                                        <br />
+                                                        01.05.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_2" class="panel-body" style="padding: 0px;">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Perşembe
+                                                        <br />
+                                                        02.05.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_3" class="panel-body" style="padding: 0px;">
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Cuma
+                                                        <br />
+                                                        03.05.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_4" class="panel-body" style="padding: 0px;">
+                                                    
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_4_dvCheckbox_0"></div>
+                                                                    <span id="pageContent_rptList_rpChild_4_lblSeans_0" class="lblStyle">07:00 - 08:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    <a onclick="return alert(&#39;Rezervasyon İşlemi Gerçekleştiriyorsunuz. Bilginize.&#39;);" id="pageContent_rptList_rpChild_4_lbRezervasyon_0" title="Rezervasyon" class="btn btn-sm btn-danger" href="javascript:__doPostBack(&#39;ctl00$pageContent$rptList$ctl04$rpChild$ctl00$lbRezervasyon&#39;,&#39;&#39;)" style="font-weight:bold;">Rezervasyon</a>
+                                                                    <a onclick="return alert(&#39;Abonelik Başlatma İşlemi Gerçekleştiriyorsunuz. Bilginize.&#39;);" id="pageContent_rptList_rpChild_4_lbAbonelikBaslatma_0" title="Abonelik Başlatma" class="btn btn-sm btn-primary" href="javascript:__doPostBack(&#39;ctl00$pageContent$rptList$ctl04$rpChild$ctl00$lbAbonelikBaslatma&#39;,&#39;&#39;)" style="font-weight:bold;display: none;">Abonelik</a>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_4_dvCheckbox_1"></div>
+                                                                    <span id="pageContent_rptList_rpChild_4_lblSeans_1" class="lblStyle">08:00 - 09:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    <a onclick="return alert(&#39;Rezervasyon İşlemi Gerçekleştiriyorsunuz. Bilginize.&#39;);" id="pageContent_rptList_rpChild_4_lbRezervasyon_1" title="Rezervasyon" class="btn btn-sm btn-danger" href="javascript:__doPostBack(&#39;ctl00$pageContent$rptList$ctl04$rpChild$ctl01$lbRezervasyon&#39;,&#39;&#39;)" style="font-weight:bold;">Rezervasyon</a>
+                                                                    <a onclick="return alert(&#39;Abonelik Başlatma İşlemi Gerçekleştiriyorsunuz. Bilginize.&#39;);" id="pageContent_rptList_rpChild_4_lbAbonelikBaslatma_1" title="Abonelik Başlatma" class="btn btn-sm btn-primary" href="javascript:__doPostBack(&#39;ctl00$pageContent$rptList$ctl04$rpChild$ctl01$lbAbonelikBaslatma&#39;,&#39;&#39;)" style="font-weight:bold;display: none;">Abonelik</a>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_4_dvCheckbox_2" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_4_lblSeans_2" class="lblStyle">20:00 - 21:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_4_dvCheckbox_3" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_4_lblSeans_3" class="lblStyle">21:00 - 22:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_4_dvCheckbox_4" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_4_lblSeans_4" class="lblStyle">22:00 - 23:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Cumartesi
+                                                        <br />
+                                                        04.05.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_5" class="panel-body" style="padding: 0px;">
+                                                    
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_0" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_0" class="lblStyle">07:00 - 08:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_1" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_1" class="lblStyle">18:00 - 19:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_2" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_2" class="lblStyle">19:00 - 20:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_3" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_3" class="lblStyle">20:00 - 21:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_4" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_4" class="lblStyle">21:00 - 22:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_5_dvCheckbox_5" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_5_lblSeans_5" class="lblStyle">22:00 - 23:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                        <div class="col-md-1" style="min-height: 200px;">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading" style="padding: 10px; text-align: center;">
+                                                    <h3 class="panel-title" style="font-size: 14px; font-weight: 900;">Pazar
+                                                        <br />
+                                                        05.05.2024
+                                                            </h3>
+                                                </div>
+                                                <div id="pageContent_rptList_Div2_6" class="panel-body" style="padding: 0px;">
+                                                    
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_6_dvCheckbox_0" style="color:#ffffff;background-color:#8bc34a;title:Sepette;"><label class="labelUfak" >Başkasının Sepetinde</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_6_lblSeans_0" class="lblStyle">07:00 - 08:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_6_dvCheckbox_1" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_6_lblSeans_1" class="lblStyle">18:00 - 19:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_6_dvCheckbox_2" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_6_lblSeans_2" class="lblStyle">19:00 - 20:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                            <div class="form-group fgPlus">
+                                                                <div class="well wellPlus">
+                                                                    <div id="pageContent_rptList_rpChild_6_dvCheckbox_3" style="color:#ffffff;background-color:#f44336;title:Rezervasyon;"><label class="labelUfak" >Başkasının Rezervasyonu</label></div>
+                                                                    <span id="pageContent_rptList_rpChild_6_lblSeans_3" class="lblStyle">20:00 - 21:00</span>
+                                                                    <br />
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-md-12' style='width: 100%;'></div>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+</div>
+
+
+    <div id="pageContent_updateProgress" style="display:none;">
+	
+            <div style="position: fixed; text-align: center; height: 100%; width: 100%; top: 0; right: 0; left: 0; z-index: 9999999; background-color: #000000; opacity: 0.7;">
+                <div style="top: 30%; position: sticky;">
+                    <img id="pageContent_imgUpdateProgress" title="Yükleniyor, lütfen bekleyiniz ..." src="assets/images/all-img/Gears_1.gif" alt="Yükleniyor, lütfen bekleyiniz ..." />
+                    <br />
+                    <span style="font-size: 20px; color: white;">Yükleniyor, lütfen bekleyiniz...</span>
+                </div>
+            </div>
+        
+</div>
+
+
+
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+        <div id="modal" class="modal fade" role="dialog" tabindex="-1" aria-labelledby="exampleModalSizeSm" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable" id="kt_engage_prebuilts_modal_dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body" style="text-align: center;">
+                        <div id="kt_carousel_2_carousel" class="carousel carousel-custom slide" data-bs-ride="carousel" data-bs-interval="8000">
+                            <!--begin::Heading-->
+
+                            <!--end::Heading-->
+
+                            <!--begin::Carousel-->
+                            <div class="carousel-inner pt-8">
+                                <!--begin::Item-->
+								
+								 <div class="carousel-item active">
+                                    <img src="embeddedfiles/images/bilgilendirme/tesisdegisikligi.png" class="d-block w-100" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/1.png" class="d-block w-100" alt="Slide 1" />
+                                </div>
+                                <!--end::Item-->
+
+                                <!--begin::Item-->
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/2.png" class="d-block w-100" alt="Slide 2" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/3.png" class="d-block w-100" alt="Slide 3" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/4.png" class="d-block w-100" alt="Slide 4" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/5.png" class="d-block w-100" alt="Slide 5" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/6.png" class="d-block w-100" alt="Slide 6" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/7.png" class="d-block w-100" alt="Slide 7" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/8.png" class="d-block w-100" alt="Slide 8" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/9.png" class="d-block w-100" alt="Slide 9" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="embeddedfiles/images/bilgilendirme/10.png" class="d-block w-100" alt="Slide 10" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#kt_carousel_2_carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#kt_carousel_2_carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <div class="d-flex align-items-center flex-wrap" style="place-content: center;">
+                                <ol class="p-0 m-0 carousel-indicators carousel-indicators-bullet" style="">
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="0" class="ms-1 active" aria-current="true"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="1" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="2" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="3" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="4" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="5" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="6" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="7" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="8" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="9" class="ms-1"></li>
+                                    <li data-bs-target="#kt_carousel_2_carousel" data-bs-slide-to="10" class="ms-1"></li>
+                                
+								</ol>
+								
+                                <!--end::Carousel Indicators-->
+                            </div>
+                            <!--end::Carousel-->
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkBox" />
+                            <label class="form-check-label" for="checkBox">Tekrar Gösterme</label>
+                        </div>
+                        <button id="closeModal" type="button" class="btn btn-light-primary font-weight-bold" data-bs-dismiss="modal">Kapat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BEGIN PRE-FOOTER -->
+        <section class="rt-site-footer" data-scrollax-parent="true">
+            <div class="footer-top rtbgprefix-cover" style="background-image: url(/assets/images/backgrounds/footerbg.png)">
+                <div class="footer-subscripbe-box wow fade-in-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-10 mx-auto text-center">
+                                <div class="rt-section-title-wrapper text-white">
+                                    <iframe src="https://lottie.host/embed/722f1cee-ca72-4a7d-9933-6be999f7ce23/twjg3pgGs1.json" style="height: 200px;"></iframe>
+                                </div>
+                            </div>
+                            <!-- /.col-lg-7 -->
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+
+                            <div class="col-lg-7 mx-auto">
+                                <div class="input-group mb-12">
+                                    <div type="text" class="form-control" aria-describedby="button-addon2" style="word-spacing: -6px; text-align: center; line-height: 1; font-size: 30px; font-weight: bold; color: white; border: none;">
+                                        #Daha Aktif Bir İstanbul İçin Buradayız
+                                    </div>
+
+                                </div>
+                                <!-- end input gorup -->
+                            </div>
+
+                            <div class="col-lg-7 mx-auto">
+                                <div class="row">
+                                    <div class="col-md-3"><a href="https://www.instagram.com/ibbsporistanbul/" class="rt-btn rt-outline-gradientL rt-rounded fs-1" style="border: none;"><i aria-hidden="true" style="color: white;" class="fab fa-instagram fs-3"></i>&nbsp;Instagram</a></div>
+                                    <div class="col-md-3"><a href="https://www.youtube.com/ibbsporistanbul" class="rt-btn rt-outline-gradientL rt-rounded fs-1" style="border: none;"><i aria-hidden="true" style="color: white;" class="fab fa-youtube fs-3"></i>&nbsp;Youtube</a></div>
+                                    <div class="col-md-3"><a href="https://twitter.com/ibbsporistanbul" class="rt-btn rt-outline-gradientL rt-rounded fs-1" style="border: none;"><i aria-hidden="true" style="color: white;" class="fab fa-twitter-square fs-3"></i>&nbsp;Twitter</a></div>
+                                    <div class="col-md-3"><a href="https://www.facebook.com/ibbsporistanbul" class="rt-btn rt-outline-gradientL rt-rounded fs-1" style="border: none;"><i aria-hidden="true" style="color: white;" class="fab fa-facebook fs-3"></i>&nbsp;Facebook</a></div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+                        <div class="rt-dot-divider"></div>
+                        <!-- /.rt-dot-divider -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.footer-subscripbe-box -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1s">
+                                <h3 class="rt-footer-title">KURUMSAL</h3>
+                                <!-- /.rt-footer-title -->
+                                <ul class="rt-usefulllinks">
+                                    <li>
+                                        <a href="https://spor.istanbul/kurumsal/kisa-tanitim-ve-tarihce/">Hakkımızda</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spor.istanbul/kurumsal/ihale-ilanlari/">İhale İlanları</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.belgemodul.com/sirket/398">Bilgi Toplumu Hizmetleri</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spor.istanbul/wp-content/uploads/2022/12/SPOR-İSTANBUL-POLİTİKA-1.docx">ISG Politikası</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spor.istanbul/kurumsal/kvkk/">Kişisel Verilerin Korunması Kanunu</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spor.istanbul/arabuluculuk/">Arabuluculuk</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <!-- /.rt-single-widge -->
+                        </div>
+                        <!-- /.col-lg-3-->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="1.5s">
+                                <h3 class="rt-footer-title">ROTALAR</h3>
+                                <ul class="rt-usefulllinks">
+                                    <li><a href="https://spor.istanbul/istanbul-kosu-rotalari/">İstanbul Koşu/Yürüyüş Rotaları</a></li>
+                                    <li><a href="https://spor.istanbul/istanbul-bisiklet-rotalari/">İstanbul Bisiklet Rotaları</a></li>
+                                    <li><a href="https://spor.istanbul/istanbul-yuzme-rotalari/">İstanbul Yüzme Rotaları</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.rt-single-widget -->
+                        </div>
+                        <!-- /.col-lg-3-->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2s">
+                                <h3 class="rt-footer-title">SÜRDÜRÜLEBİLİRLİK
+
+                                </h3>
+                                <ul class="rt-usefulllinks">
+
+                                    <li><a href="https://spor.istanbul/spor-istanbul-ve-surdurulebilirlik/">Spor İstanbul ve Sürdürülebilirlik</a></li>
+                                    <li><a href="https://spor.istanbul/spor-istanbul-sroi-analizi/">Spor İstanbul SROI analizi</a></li>
+                                    <li><a href="https://spor.istanbul/spor-istanbul-degisim-teorisi/">Spor İstanbul Değişim Teorisi</a></li>
+                                    <li><a href="https://spor.istanbul/sosyal-etkimiz/">Spor İstanbul ve Sosyal Etki</a></li>
+                                </ul>
+                                <!-- /.rt-usefulllinks -->
+                            </div>
+                            <!-- end single widget -->
+                        </div>
+                        <!-- /.col-lg-3-->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="rt-single-widget wow fade-in-bottom" data-wow-duration="2.5s">
+                                <h3 class="rt-footer-title">BASINDA BİZ
+                                </h3>
+                                <ul class="rt-usefulllinks">
+                                    <li><a href="https://spor.istanbul/category/basin-odasi/haber-ve-duyurular/">Haber Arşivi</a></li>
+                                    <li><a href="https://spor.istanbul/category/basin-odasi/">Basın Bültenleri</a></li>
+                                </ul>
+                                <!-- /.rt-usefulllinks -->
+                            </div>
+                            <!-- end single widget -->
+                        </div>
+                        <!-- /.col-lg-3-->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.footer-top -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 text-lg-left">
+                            <div class="copy-text wow fade-in-bottom" data-wow-duration="1s">
+                                2024© SPOR İSTANBUL – TÜM HAKKI SAKLIDIR
+                            </div>
+                            <!-- /.copy-text -->
+                        </div>
+                        <!-- /.col-lg-6 -->
+                        <div class="col-lg-6 text-center text-lg-right">
+                            <div class="rt-footer-social wow fade-in-bottom" data-wow-duration="1.5s">
+                                <ul>
+                                    <li>
+                                        <img loading="lazy" src="/embeddedfiles/images/guvenli-alisveris-icon.png" width="112" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.rt-footer-social -->
+                        </div>
+                        <!-- /.col-lg-6 -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.footer-bottom -->
+        </section>
+        <div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+            <!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
+            <span class="svg-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
+                    <path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="currentColor" />
+                </svg>
+            </span>
+            <!--end::Svg Icon-->
+        </div>
+        <!--end::Scrolltop-->
+
+        <div class="rt-preloder" id="asdasd">
+            <div class="preloder-box" style="height: unset; width: 800px;">
+                <img src="assets/images/all-img/Gears_1.gif" alt="preloder image" draggable="false" />
+            </div>
+            <!-- /.preloder-box -->
+        </div>
+        <!-- /.rt-preloder -->
+
+        <!--begin::Javascript-->
+
+        
+        <!--begin::Global Javascript Bundle(mandatory for all pages)-->
+
+        <script src="assets/plugins/global/plugins.bundle.js"></script>
+        <script src="assets/js/scripts.bundle.js"></script>
+        <!--end::Global Javascript Bundle-->
+        <!--begin::Custom Javascript(used for this page only)-->
+        <script src="assets/js/widgets.bundle.js"></script>
+        <script src="assets/js/custom/widgets.js"></script>
+        <script src="assets/js/custom/apps/chat/chat.js"></script>
+        <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+        <script src="assets/js/custom/utilities/modals/create-app.js"></script>
+        <script src="assets/js/custom/utilities/modals/users-search.js"></script>
+        <!--end::Custom Javascript-->
+        <!-- ==================Start Js Link===================== -->
+        <!-- plugin js scripts -->
+
+        <script src="assets/css/Emigrar/js/pre-a.js"></script>
+
+        <script>
+            $(document).on('click', 'a[id="info-tab"]', function (e) {
+                $('#modal').modal('show');
+                localStorage.removeItem('anasayfa');
+            });
+            $(document).ready(function () {
+                var showModal = localStorage.getItem('anasayfa');
+
+                if (showModal !== 'false') {
+                    $('#modal').modal('show');
+                }
+
+                $('#checkBox').change(function () {
+                    if ($(this).is(':checked')) {
+                        localStorage.setItem('anasayfa', 'false');
+                    } else {
+                        localStorage.removeItem('anasayfa');
+                    }
+                });
+            });
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+showUyari('info', '<br />
+<span style="font-family: arial, helvetica, sans-serif; font-size: 18pt; color: #ff0000;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><font size="3" style="color: #ff0000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;">Değerli üyemiz,</span></font><font size="3" style="color: #212121; font-family: wf_segoe-ui_normal, segoe ui, segoe wp, tahoma, arial, sans-serif, serif, emojifont;"><span style="font-size: 12pt;"><br />
+</span></font><font size="3" style="color: #ff0000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;"><b>Seanslarınızı kullanmaya başlamadan önce,</b></span></font><font size="3" style="color: #ff0000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;">&nbsp;tesisimizi ilk ziyaretinizde, Üyelik Hizmetleri Birimimize uğrayarak&nbsp;</span></font><font size="3" style="color: #ff0000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;"><b>Fiziksel Aktivite Uygunluk Formu’nu (PAR-Q)</b></span></font><font size="3" style="color: #ff0000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 18pt;">&nbsp;doldurmanız ve ıslak imzalı olarak görevlilere teslim etmeniz önemlidir.</span></font><br />
+<br />
+<br />
+<p class="MsoNormal"><b><span style="font-family:arial,sans-serif;color:#327ad5;background:#e0ebf9"><span style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 14pt;">Kiralık satışlarda, bir üye aynı gün içerisinde aynı branştan tüm Spor İstanbul Tesislerinden 1 adet seans kiralaması yapabilir. Bir branştan seans kiralaması yapıldığında, aynı branştan 2. seans aynı gün için sepete eklenemez. Aynı üye, farklı bir branştan kiralama yapmak isterse, yine günde 1 adet olmak kaydıyla kiralama yapabilir.</span><o:p /></span></b></p>
+<p class="MsoNormal"><b><span style="font-family: tahoma, arial, helvetica, sans-serif; color: #327ad5; background: #e0ebf9; font-size: 14pt;">18 yaşın altındaki kullanıcıların seans rezervasyonu yapabilmeleri için velisinden muvafakatname getirmesi gerekir.</span></b><b><span style="font-family:arial,sans-serif;color:#327ad5;background:#e0ebf9"><o:p /></span></b></p><br />
+<p class="MsoNormal" style="text-indent:35.4pt"><span style="font-size:16.0pt;line-height:107%;font-family:tahoma,sans-serif;color:red"><br />
+</span></p>
+<p class="MsoNormal" style="text-indent:35.4pt"><span style="font-size:16.0pt;line-height:107%;font-family:tahoma,sans-serif;color:red"><span style="font-weight: bold;">Değerli Üyemiz,</span><o:p /></span></p>
+<p class="MsoNormal"><span style="font-size: 16pt; line-height: 107%; font-family: tahoma, sans-serif; color: red; font-weight: bold;">1 Mart itibariyle program üyeliği ve kiralama hizmetlerimizde sepet süremiz</span><span style="font-size:16.0pt;line-height:107%;font-family:tahoma,sans-serif;color:red"> <span style="text-decoration: underline; font-weight: bold;">30 Dakikadır.</span><o:p /></span></p>
+');setTimeout(function () {
+                            $('.card .collapse.show').collapse('hide');
+                        }, 10000);
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("pageContent_updateProgress"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
